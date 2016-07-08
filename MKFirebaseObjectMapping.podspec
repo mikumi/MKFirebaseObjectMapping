@@ -29,7 +29,7 @@ auto-update (for now. maybe in the future). Also note that his library is curren
   s.source           = { :git => 'https://github.com/mikumi/MKFirebaseObjectMapping.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'MKFirebaseObjectMapping/Classes/**/*'
   
