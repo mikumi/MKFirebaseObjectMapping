@@ -1,0 +1,19 @@
+PODS:
+  - Firebase (2.5.1)
+  - MKFirebaseObjectMapping (0.1.0):
+    - Firebase (~> 2.5.1)
+
+DEPENDENCIES:
+  - MKFirebaseObjectMapping (from `../`)
+
+EXTERNAL SOURCES:
+  MKFirebaseObjectMapping:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  MKFirebaseObjectMapping: 51e0969c4ff7d7c32c759cff231379600808b20c
+
+PODFILE CHECKSUM: 53e39ab8a4c096fa242576654c1ffb298cc446f4
+
+COCOAPODS: 1.0.1
