@@ -1,6 +1,6 @@
 //
 // Created by Michael Kuck on 7/7/16.
-// Copyright (c) 2016 Jaysquared. All rights reserved.
+// Copyright (c) 2016 Michael Kuck. All rights reserved.
 //
 
 #import "MKMutableFirebaseModel.h"
