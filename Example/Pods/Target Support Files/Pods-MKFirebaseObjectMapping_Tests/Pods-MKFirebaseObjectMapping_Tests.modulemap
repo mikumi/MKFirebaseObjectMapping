@@ -1,6 +1,0 @@
-framework module Pods_MKFirebaseObjectMapping_Tests {
-  umbrella header "Pods-MKFirebaseObjectMapping_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

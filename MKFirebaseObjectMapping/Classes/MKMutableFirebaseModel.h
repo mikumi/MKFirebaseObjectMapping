@@ -9,15 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class Firebase;
-@class FDataSnapshot;
+@class FIRDatabaseReference;
+@class FIRDataSnapshot;
 
 //============================================================
 //== Public Interface
 //============================================================
 @interface MKMutableFirebaseModel : MKFirebaseModel
 
-- (instancetype)initWithFirebaseRef:(Firebase *)firebaseRef;
+- (instancetype)initWithFirebaseRef:(FIRDatabaseReference *)firebaseRef;
 
 - (void)registerUpdatedValue:(id)value forKey:(NSString *)key;
 - (void)save;

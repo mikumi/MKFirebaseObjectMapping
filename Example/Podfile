@@ -1,11 +1,8 @@
-use_frameworks!
-
 target 'MKFirebaseObjectMapping_Example' do
   pod 'MKFirebaseObjectMapping', :path => '../'
 
   target 'MKFirebaseObjectMapping_Tests' do
     inherit! :search_paths
 
-    
   end
 end

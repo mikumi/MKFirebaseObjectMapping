@@ -39,5 +39,5 @@ auto-update (for now. maybe in the future). Also note that his library is curren
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Firebase', '~> 2.5.1'
+  s.ios.dependency 'Firebase/Database', '~> 3.12.0'
 end

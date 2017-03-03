@@ -5,14 +5,14 @@
 
 #import "MKFirebaseModel.h"
 
-#import <Firebase/Firebase.h>
+#import <FirebaseDatabase/FirebaseDatabase.h>
 
 //============================================================
 //== Private Interface
 //============================================================
 @interface MKFirebaseModel ()
 
-@property (nonatomic, readwrite) Firebase *firebaseRef;
+@property (nonatomic, readwrite) FIRDatabaseReference *firebaseRef;
 
 @end
 
@@ -23,7 +23,7 @@
 
 #pragma mark - Life Cycle
 
-- (instancetype)initWithFirebaseRef:(Firebase *)firebaseRef snapshotValue:(NSDictionary *)snapshotValue
+- (instancetype)initWithFirebaseRef:(FIRDatabaseReference *)firebaseRef snapshotValue:(NSDictionary *)snapshotValue
 {
     self = [super init];
     if (self) {
@@ -33,7 +33,7 @@
     return self;
 }
 
-- (instancetype)initWithSnapshot:(FDataSnapshot *)snapshot
+- (instancetype)initWithSnapshot:(FIRDataSnapshot *)snapshot
 {
     self = [self initWithFirebaseRef:snapshot.ref snapshotValue:snapshot.value];
     return self;

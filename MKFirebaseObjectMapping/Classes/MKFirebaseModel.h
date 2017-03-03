@@ -7,20 +7,20 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class Firebase;
-@class FDataSnapshot;
+@class FIRDatabaseReference;
+@class FIRDataSnapshot;
 
 //============================================================
 //== Public Interface
 //============================================================
 @interface MKFirebaseModel : NSObject
 
-@property (nonatomic, readonly) Firebase *firebaseRef;
+@property (nonatomic, readonly) FIRDatabaseReference *firebaseRef;
 @property (nonatomic, readonly) NSString *identifier;
 
 - (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithFirebaseRef:(Firebase *)firebaseRef snapshotValue:(NSDictionary *)snapshotValue NS_DESIGNATED_INITIALIZER;
-- (instancetype)initWithSnapshot:(FDataSnapshot *)snapshot;
+- (instancetype)initWithFirebaseRef:(FIRDatabaseReference *)firebaseRef snapshotValue:(NSDictionary *)snapshotValue NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithSnapshot:(FIRDataSnapshot *)snapshot;
 
 @end
 

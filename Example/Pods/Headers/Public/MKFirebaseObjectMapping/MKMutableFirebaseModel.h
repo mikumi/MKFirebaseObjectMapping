@@ -1,0 +1,1 @@
+../../../../../MKFirebaseObjectMapping/Classes/MKMutableFirebaseModel.h

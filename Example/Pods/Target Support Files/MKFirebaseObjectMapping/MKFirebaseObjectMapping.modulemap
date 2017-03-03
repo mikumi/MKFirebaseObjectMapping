@@ -1,6 +1,0 @@
-framework module MKFirebaseObjectMapping {
-  umbrella header "MKFirebaseObjectMapping-umbrella.h"
-
-  export *
-  module * { export * }
-}
