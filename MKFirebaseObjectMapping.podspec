@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
     Objects can implement MKFirebaseObject or MKImmutableFirebaseObject. Note that those objects will intentionally *not*
-auto-update (for now. maybe in the future). Also note that his library is currently still based on the 2.x Firebase SDK.
+auto-update (for now. maybe in the future).
                        DESC
 
   s.homepage         = 'https://github.com/mikumi/MKFirebaseObjectMapping.git'
