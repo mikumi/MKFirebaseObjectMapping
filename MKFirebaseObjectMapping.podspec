@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKFirebaseObjectMapping'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Mutable and Immutable Object Mapping for Firebase'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,5 @@ auto-update (for now. maybe in the future).
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.ios.dependency 'Firebase/Database', '~> 3.12.0'
+  s.ios.dependency 'Firebase/Database', '~> 3.12'
 end
