@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithFirebaseRef:(FIRDatabaseReference *)firebaseRef snapshotValue:(NSDictionary *)snapshotValue NS_DESIGNATED_INITIALIZER;
 - (instancetype)initWithSnapshot:(FIRDataSnapshot *)snapshot;
 
+- (BOOL)isEqualToFirebaseModel:(MKFirebaseModel *)firebaseModel;
+
 @end
 
 NS_ASSUME_NONNULL_END
