@@ -39,5 +39,5 @@ auto-update (for now. maybe in the future).
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.ios.dependency 'Firebase/Database', '~> 3.12'
+  s.ios.dependency 'Firebase/Database'
 end
